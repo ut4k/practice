@@ -2,9 +2,8 @@
 
 int main(void)
 {
-	printf("%c %c hello world!\n", 'A', 'B');
-	printf("%d hello world2!\n", 123);
-	printf("%f hello world3!\n", 10.5);
+	printf("8進数で101の文字コードをもつ文字は%cです。 \n", '\101');
+	printf("16進数で61の文字コードをもつ文字は%cです。 \n", '\x61');
 
 	return 0;
 }
