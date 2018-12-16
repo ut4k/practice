@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void func(void){
-	int count = 0;
+	static int count = 0;
 	count = count + 1;
 	printf("count = %d\n", count);
 }
